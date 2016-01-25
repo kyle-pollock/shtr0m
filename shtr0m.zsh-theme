@@ -12,14 +12,14 @@ RPROMPT='%{$fg[yellow]%}[%*]%{$reset_color%}'
 
 zle-keymap-select () {
     if [ $KEYMAP = vicmd ]; then
-        echo -ne "\033]12;purple\007"
+        echo -ne "\033]12;#85678F\007"
     else
-        echo -ne "\033]12;green\007"
+        echo -ne "\033]12;#8C9440\007"
     fi
 };
 zle -N zle-keymap-select
 zle-line-init () {
     zle -K viins
-    echo -ne "\033]12;green\007"
+    echo -ne "\033]12;#8C9440\007"
 };
 zle -N zle-line-init
