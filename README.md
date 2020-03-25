@@ -7,5 +7,5 @@ Install
 
 [Antigen](https://github.com/zsh-users/antigen):
 ```
-antigen theme shtr0m/shtr0m.zsh-theme shtr0m
+antigen theme unixchad/shtr0m shtr0m
 ```
